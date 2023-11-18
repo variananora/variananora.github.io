@@ -8,11 +8,6 @@
 - [ ] Setup domains
 - [ ] Add stuffs
 
-### Notes
-
-`master` branch for source code
-`deploy` branch for builds
-
 ### Thanks to
 
 - [React](https://react.dev/)
