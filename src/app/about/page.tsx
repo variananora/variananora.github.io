@@ -1,5 +1,4 @@
 import {
-  FaDiscord,
   FaLinkedin,
   FaSquareEnvelope,
   FaSquareFacebook,
@@ -172,9 +171,6 @@ export default function About() {
             </Link>
             <Link href="https://steamcommunity.com/id/variananora123">
               <FaSquareSteam />
-            </Link>
-            <Link href="https://www.facebook.com/variananora/">
-              <FaSquareFacebook />
             </Link>
           </div>
         </div>
