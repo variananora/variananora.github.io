@@ -1,17 +1,17 @@
-import {
-  FaLinkedin,
-  FaSquareEnvelope,
-  FaSquareFacebook,
-  FaSquareGithub,
-  FaSquareInstagram,
-  FaSquareReddit,
-  FaSquareSteam,
-  FaSquareTwitter,
-  FaSquareYoutube,
-} from "react-icons/fa6";
 import Link from "next/link";
+import {
+  SiFacebook,
+  SiGithub,
+  SiInstagram,
+  SiLinkedin,
+  SiMicrosoftoutlook,
+  SiReddit,
+  SiSteam,
+  SiTwitter,
+  SiYoutube,
+} from "react-icons/si";
 
-export default function About() {
+const About = () => {
   return (
     <div className="text-white">
       <section id="about-me">
@@ -146,35 +146,37 @@ export default function About() {
           </div>
           <div className="flex flex-row gap-2">
             <Link href="mailto://variananora@outlook.com">
-              <FaSquareEnvelope />
+              <SiMicrosoftoutlook className="h-8 w-8" />
             </Link>
             <Link href="https://www.linkedin.com/in/variananora/">
-              <FaLinkedin />
+              <SiLinkedin className="h-8 w-8" />
             </Link>
             <Link href="https://github.com/variananora">
-              <FaSquareGithub />
+              <SiGithub className="h-8 w-8" />
             </Link>
             <Link href="https://www.youtube.com/channel/UCVNi0STpyTw4F2w_Oy-Zwvg">
-              <FaSquareYoutube />
+              <SiYoutube className="h-8 w-8" />
             </Link>
             <Link href="https://twitter.com/variananora">
-              <FaSquareTwitter />
+              <SiTwitter className="h-8 w-8" />
             </Link>
             <Link href="https://www.instagram.com/variananora/">
-              <FaSquareInstagram />
+              <SiInstagram className="h-8 w-8" />
             </Link>
             <Link href="https://www.facebook.com/variananora/">
-              <FaSquareFacebook />
+              <SiFacebook className="h-8 w-8" />
             </Link>
             <Link href="https://www.reddit.com/user/variananora">
-              <FaSquareReddit />
+              <SiReddit className="h-8 w-8" />
             </Link>
             <Link href="https://steamcommunity.com/id/variananora123">
-              <FaSquareSteam />
+              <SiSteam className="h-8 w-8" />
             </Link>
           </div>
         </div>
       </section>
     </div>
   );
-}
+};
+
+export default About;

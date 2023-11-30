@@ -1,7 +1,13 @@
 import Link from "next/link";
 
-export default function Navbar() {
-  const navItems = [
+type NavItem = {
+  key: string;
+  name: string;
+  path: string;
+};
+
+const Navbar = () => {
+  const navItems: NavItem[] = [
     {
       key: "home",
       name: "Home",
@@ -44,4 +50,6 @@ export default function Navbar() {
       </div>
     </nav>
   );
-}
+};
+
+export default Navbar;

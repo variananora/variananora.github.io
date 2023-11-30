@@ -34,3 +34,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+# Contentlayer
+.contentlayer
+
+# User-specific files
+.vscode/*

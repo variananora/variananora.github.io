@@ -1,4 +1,4 @@
-export default function Blogs() {
+const Blogs = () => {
   return (
     <div className="gap-8 items-center py-8 xl:gap-16">
       <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
@@ -6,4 +6,6 @@ export default function Blogs() {
       </div>
     </div>
   );
-}
+};
+
+export default Blogs;
